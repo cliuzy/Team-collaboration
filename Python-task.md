@@ -1,3 +1,16 @@
+# task 1: System Monitoring Script
+####  *📌 Task: Use an appropiate Python library to display CPU and memory usage.*
+### *✅ Instructions:*
+
+#### *Install python lib using pip.*
+
+#### *Write a script that prints CPU and memory usage every few seconds.*
+
+*Example output:
+*CPU Usage: 35% Memory Usage: 60%*
+
+*Bonus: Extend the script to log this data into a file for future analysis.*
+
 # System Monitoring Script
 
 ```bash
