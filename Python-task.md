@@ -1,6 +1,6 @@
 # task 1: System Monitoring Script
 ####  *📌 Task: Use an appropiate Python library to display CPU and memory usage.*
-### *✅ Instructions:*
+  *✅ Instructions:*
 
 #### *Install python lib using pip.*
 
