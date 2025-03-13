@@ -6,7 +6,7 @@
 
 #### *Write a script that prints CPU and memory usage every few seconds.*
 
-*Example output:
+*Example output:*
 *CPU Usage: 35% Memory Usage: 60%*
 
 *Bonus: Extend the script to log this data into a file for future analysis.*
@@ -32,3 +32,4 @@ python3 system_monitor.py
 
 
 ![](https://raw.githubusercontent.com/cliuzy/Team-collaboration/main/images/Sc4.png)
+___
