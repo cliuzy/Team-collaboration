@@ -101,3 +101,4 @@ Run the script
 ```bash
 python3 weather_fetch.py
 ```
+![](https://raw.githubusercontent.com/cliuzy/Team-collaboration/main/images/Sc5.png)
