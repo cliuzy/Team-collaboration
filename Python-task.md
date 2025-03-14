@@ -101,4 +101,61 @@ Run the script
 ```bash
 python3 weather_fetch.py
 ```
-![](https://raw.githubusercontent.com/cliuzy/Team-collaboration/main/images/Sc5.png)
+___
+
+# 📌 Task 3: 
+### Write a script that scans a .log file and counts occurrences of the word "ERROR".
+✅ Instructions:
+
+Create a sample .log file with different log messages, including "ERROR".
+
+Write a Python script that reads the file and counts occurrences of "ERROR".
+
+Example output:
+Found 5 occurrences of 'ERROR' in logs.
+
+Bonus: Extend the script to filter logs by date or severity level (INFO, WARNING, ERROR).
+___
+
+📌 Step 1: Create a Sample Log File
+Create a file called sample.log and add some logs:
+
+```bash
+touch sample.log
+```
+add this to the file
+
+```bash
+2024-03-13 12:00:01 - INFO - System started
+2024-03-13 12:05:32 - WARNING - High memory usage detected
+2024-03-13 12:10:15 - ERROR - Failed to connect to database
+2024-03-13 12:15:45 - INFO - User logged in
+2024-03-13 12:20:50 - ERROR - Timeout while fetching API data
+2024-03-13 12:30:10 - ERROR - Disk space low
+```
+Create a file called log_scanner.py and add this script:
+
+```python
+
+import re
+
+LOG_FILE = "sample.log"
+
+def count_errors(log_file):
+    """Counts occurrences of 'ERROR' in the log file."""
+    error_count = 0
+    with open(log_file, "r") as file:
+        for line in file:
+            if "ERROR" in line:  # ✅ Indentation fixed
+                error_count += 1  # ✅ Valid statement
+    return error_count
+
+if __name__ == "__main__":
+    error_count = count_errors(LOG_FILE)
+    print(f"Found {error_count} occurrences of 'ERROR' in logs.")
+```
+Run your script again:
+```bash
+
+python3 log_scanner.py
+```
