@@ -159,3 +159,5 @@ Run your script again:
 
 python3 log_scanner.py
 ```
+we have somthing like this
+![](https://raw.githubusercontent.com/cliuzy/Team-collaboration/main/images/Sc7.png)
